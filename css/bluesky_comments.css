@@ -1,0 +1,110 @@
+/* Container styles - controlled mostly inline */
+#bluesky-comments {
+  border-radius: 6px;
+  /* Background, padding, margin, border set inline */
+}
+
+/* Main post stats link */
+.bsky-main-post-link {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  text-decoration: none;
+  color: #0073aa;
+}
+
+.bsky-main-post-link:hover {
+  text-decoration: underline;
+}
+
+/* Comments header */
+h3 {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  color: #222;
+  font-weight: 600;
+}
+
+/* Comment list wrapper */
+.bsky-comment-list {
+  margin-top: 1rem;
+}
+
+/* Individual comment container */
+.bsky-comment-item {
+  display: flex;
+  flex-direction: column;
+  background: #fafafa; /* Light background for comments */
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  word-break: break-word;
+  /* Padding/margin controlled inline via JS */
+}
+
+/* Author info container */
+.bsky-comment-author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.4rem;
+}
+
+/* Profile avatar */
+.bsky-comment-avatar {
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  flex-shrink: 0;
+  /* Width and height controlled inline */
+  margin-right: 0.75rem; /* fallback margin */
+}
+
+/* Author name link */
+.bsky-comment-author-name {
+  font-weight: 600;
+  color: #0073aa;
+  text-decoration: none;
+  /* font-size controlled inline */
+}
+
+.bsky-comment-author-name:hover {
+  text-decoration: underline;
+}
+
+/* Comment text */
+.bsky-comment-text {
+  line-height: 1.4;
+  color: #333;
+  white-space: pre-wrap;
+  margin: 0;
+  /* padding-left controlled inline */
+}
+
+/* Divider */
+.bsky-comment-divider {
+  border: none;
+  border-top: 1px solid #eee;
+  margin-top: 0.5rem;
+  opacity: 0.5;
+}
+
+/* Reply on Bluesky paragraph */
+#bluesky-comments > p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Indent nested replies */
+.bsky-comment-item > div > .bsky-comment-item {
+  margin-left: 1.5rem;
+  margin-top: 0.75rem;
+}
+
+/* Responsive: reduce max-width on smaller screens */
+@media (max-width: 640px) {
+  #bluesky-comments {
+    max-width: 100% !important;
+    margin: 0.5rem !important;
+  }
+}

@@ -1,0 +1,6 @@
+# VS Code settings
+.vscode/
+
+# WebStorm / PhpStorm / JetBrains IDEs
+.idea/
+*.iml
