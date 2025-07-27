@@ -23,7 +23,7 @@ To manually install this plugin:
 
 1. Download the plugin ZIP file from releases.
 
-2. Extract the contents of the ZIP (if applicable).
+2. Extract the contents of the ZIP.
 
 3. Upload the plugin folder to your WordPress site's `wp-content/plugins/` directory via FTP or file manager.
 
@@ -38,7 +38,7 @@ Once activated:
 
 1. Go to your post edit page.
 2. Add the "Bluesky Comments" block
-3. Add the URL of the reference post
+3. Add the URL of the reference post in the block properties.
 4. Done! Use the tools in the block editor to tweak how it looks.
 
 ## Updating the Plugin
