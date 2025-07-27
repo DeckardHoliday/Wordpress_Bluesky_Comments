@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Bluesky Comments Viewer
  * Description: Displays comments and stats from a Bluesky post thread from a Bluesky URL.
- * Version: 1.00.00
+ * Version: 1.00
  * Author: Deckard Holiday
  */
 
