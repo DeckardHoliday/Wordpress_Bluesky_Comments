@@ -1,4 +1,4 @@
-# Wordpress_Bluesky_Comments
+# Wordpress Bluesky Comments
 Use Bluesky replies as comments on your Wordpress Posts!
 
 ## Features
